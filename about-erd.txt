@@ -1,0 +1,42 @@
+1.Tabel Users (Pengguna)
+Menyimpan data karyawan/pengguna yang mengoperasikan sistem
+Memiliki peran berbeda seperti admin, kasir, atau manajer
+
+2.Tabel Categories (Kategori)
+Mengelompokkan produk berdasarkan jenisnya
+Memudahkan pencarian dan pengelolaan produk
+
+3.Tabel Suppliers (Pemasok)
+Menyimpan informasi pemasok/supplier untuk pemesanan barang
+Mencatat kontak dan alamat untuk komunikasi
+
+4.Tabel Products (Produk)
+Menyimpan informasi semua barang yang dijual
+Mencakup harga jual, harga modal, dan kode unik (SKU/barcode)
+5.Tabel Inventory (Stok)
+Melacak jumlah stok tiap produk yang tersedia
+Memiliki fitur batas minimum stok untuk pengingat restok
+
+6.Tabel Customers (Pelanggan)
+Menyimpan data pelanggan untuk program loyalitas atau pemesanan khusus
+Membantu melacak riwayat pembelian pelanggan
+
+7.Tabel Sales (Penjualan)
+Mencatat transaksi penjualan utama
+Menyimpan informasi total penjualan, diskon, pajak, dan metode pembayaran
+
+8.Tabel Sale_Items (Detail Penjualan)
+Merinci produk-produk yang terjual dalam satu transaksi
+Mencatat kuantitas dan harga tiap item
+
+9.Tabel Purchases (Pembelian)
+Mencatat pemesanan barang ke supplier
+Melacak status pemesanan dari dibuat hingga diterima
+
+10.Tabel Purchase_Items (Detail Pembelian)
+Merinci produk-produk yang dipesan dari supplier
+Mencatat kuantitas dan harga modal tiap item
+
+11.Tabel Stock_Movements (Pergerakan Stok)
+Mencatat semua perubahan stok (masuk/keluar)
+Memberikan riwayat lengkap pergerakan inventori untuk audit
